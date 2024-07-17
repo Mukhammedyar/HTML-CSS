@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+nav{
+    box-shadow: 10px 0px 20px 10px rgb(195, 195, 195); /* x y blur jayiliwi color */
+}
+.items-center{
+    display: flex;
+    align-items: center;
+}
+.items-end{
+    display: flex;
+    align-items: center;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.bg-zinc{
+    background-color: rgb(19, 19, 19);
+}
+.active{
+    border-bottom: 2px solid rgb(19, 19, 19);
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.line1 .left-side, .line1 .right-side{
+    color: #b3b3b3;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: end;
+    padding: 10px 0;
+    gap: 20px;
+}
+.line1{
+    height: 50px;
+}
+.line1, .line2{
+    padding: 0 10%;
+}
+.line2{
+    height: 100px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.line2 .left-side, .line2 .right-side{
+    display: flex;
+    font-size: 1rem;
+    gap: 20px;
+}
