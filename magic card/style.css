@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(251, 244, 231);
     font-family: sans-serif;
 }
 .flex_center{
@@ -11,11 +10,14 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .h_full{
-    height: 100vh;
+    height: 170vh;
 }
 .card-container{
     perspective: 500px;
+    color: rgb(251, 244, 231);
+
 }
 .card{
     width: 300px;
@@ -66,4 +68,26 @@ span{
     justify-content: center;
     align-items: center;
     font-size: 16px;
+}
+
+
+.wrapper {
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    background: yellow;
+    border: 2px solid rgb(255, 189, 66);
+    border-radius: 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.item, .items .item{
+    background-color: orange;
+    width: 70px;
+    border-radius: 10px;
+}
+.items{
+    display: flex;
+    gap: 10px;
 }
